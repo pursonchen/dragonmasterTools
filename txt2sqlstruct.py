@@ -1,7 +1,7 @@
 import re
 import sys
 
-sourcedir = '20191019154717-players-dump.txt' if len(sys.argv) == 1 else sys.argv[1]
+sourcedir = '2019102017313-players-dump.txt' if len(sys.argv) == 1 else sys.argv[1]
 desinationdir = sourcedir+'.sql'
 userlist = []
 jsonlist = []
